@@ -8,5 +8,5 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-godot = { path = "../../../godot", default-features = false, features = ["formatted"] }
+godot = { git = "https://github.com/godot-rust/gdext", branch = "master" }
 rand = "0.8"
